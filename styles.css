@@ -48,6 +48,15 @@ body {
 .menu-item {
     display: flex;
     margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 .menu-item img {
@@ -56,6 +65,10 @@ body {
     object-fit: cover;
     border-radius: 10px;
     margin-right: 20px;
+}
+
+.menu-item-details {
+    padding: 10px;
 }
 
 .menu-item-details h3 {
@@ -111,10 +124,17 @@ body {
 
 #search-bar {
     width: 50%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    padding: 15px;
+    border: 2px solid #d35400;
+    border-radius: 25px;
     font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+#search-bar:focus {
+    border-color: #ffab40;
+    box-shadow: 0 0 10px rgba(255, 171, 64, 0.5);
 }
 
 /* Footer */

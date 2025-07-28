@@ -126,16 +126,28 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchBar = document.getElementById('search-bar');
     searchBar.addEventListener('keyup', (e) => {
         const searchString = e.target.value.toLowerCase();
-        const menuItems = document.querySelectorAll('.menu-item');
+        const categories = document.querySelectorAll('.menu-category');
 
-        menuItems.forEach(item => {
-            const name = item.querySelector('h3').textContent.toLowerCase();
-            const description = item.querySelector('p').textContent.toLowerCase();
+        categories.forEach(category => {
+            const menuItems = category.querySelectorAll('.menu-item');
+            let categoryVisible = false;
 
-            if (name.includes(searchString) || description.includes(searchString)) {
-                item.style.display = 'flex';
+            menuItems.forEach(item => {
+                const name = item.querySelector('h3').textContent.toLowerCase();
+                const description = item.querySelector('p').textContent.toLowerCase();
+
+                if (name.includes(searchString) || description.includes(searchString)) {
+                    item.style.display = 'flex';
+                    categoryVisible = true;
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+
+            if (categoryVisible) {
+                category.style.display = 'block';
             } else {
-                item.style.display = 'none';
+                category.style.display = 'none';
             }
         });
     });
