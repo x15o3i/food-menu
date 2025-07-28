@@ -56,20 +56,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 "image": "https://i.imgur.com/8zL5a2s.png"
             }
         ],
-        "Drinks & Smoothies": [
-            {
-                "name": "Zobo",
-                "description": "Hibiscus drink.",
-                "price": "₦500",
-                "image": "https://i.imgur.com/LdCey8B.png"
-            },
-            {
-                "name": "Mango Smoothie",
-                "description": "Fresh mango smoothie.",
-                "price": "₦1000",
-                "image": "https://i.imgur.com/tCgz2hL.png"
-            }
-        ],
         "Today’s Specials": [
             {
                 "name": "Ofada Rice",
