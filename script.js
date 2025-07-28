@@ -5,13 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 "name": "Samosa",
                 "description": "Crispy pastry filled with spiced vegetables.",
                 "price": "₦500",
-                "image": "https://i.imgur.com/vWicG4z.png"
+                "image": "https://i.imgur.com/3h23bA2.png"
             },
             {
                 "name": "Spring Rolls",
                 "description": "Deliciously crunchy rolls with a savory filling.",
                 "price": "₦500",
-                "image": "https://i.imgur.com/vWicG4z.png"
+                "image": "https://i.imgur.com/sSPSNqj.png"
             }
         ],
         "Main Dishes": [
@@ -19,13 +19,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 "name": "Jollof Rice",
                 "description": "Smoky party jollof rice with chicken.",
                 "price": "₦2500",
-                "image": "https://i.imgur.com/26eAolh.png"
+                "image": "https://i.imgur.com/Ua7gS2C.png"
             },
             {
                 "name": "Fried Rice",
                 "description": "Stir-fried rice with mixed vegetables and shrimp.",
                 "price": "₦2500",
-                "image": "https://i.imgur.com/26eAolh.png"
+                "image": "https://i.imgur.com/8wfy2a7.png"
             }
         ],
         "Soups & Swallows": [
@@ -33,13 +33,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 "name": "Egusi Soup",
                 "description": "Rich and savory soup made from melon seeds.",
                 "price": "₦2000",
-                "image": "https://i.imgur.com/26eAolh.png"
+                "image": "https://i.imgur.com/i9D507b.png"
             },
             {
                 "name": "Eba",
                 "description": "Staple food made from cassava.",
                 "price": "₦500",
-                "image": "https://i.imgur.com/26eAolh.png"
+                "image": "https://i.imgur.com/2jS0a6T.png"
             }
         ],
         "Sides": [
@@ -47,13 +47,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 "name": "Plantain",
                 "description": "Fried ripe plantain.",
                 "price": "₦500",
-                "image": "https://i.imgur.com/26eAolh.png"
+                "image": "https://i.imgur.com/9a8J9X2.png"
             },
             {
                 "name": "Moi Moi",
                 "description": "Steamed bean pudding.",
                 "price": "₦500",
-                "image": "https://i.imgur.com/26eAolh.png"
+                "image": "https://i.imgur.com/8zL5a2s.png"
             }
         ],
         "Drinks & Smoothies": [
@@ -61,13 +61,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 "name": "Zobo",
                 "description": "Hibiscus drink.",
                 "price": "₦500",
-                "image": "https://i.imgur.com/26eAolh.png"
+                "image": "https://i.imgur.com/LdCey8B.png"
             },
             {
                 "name": "Mango Smoothie",
                 "description": "Fresh mango smoothie.",
                 "price": "₦1000",
-                "image": "https://i.imgur.com/26eAolh.png"
+                "image": "https://i.imgur.com/tCgz2hL.png"
             }
         ],
         "Today’s Specials": [
@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 "name": "Ofada Rice",
                 "description": "Local rice with a special sauce.",
                 "price": "₦3000",
-                "image": "https://i.imgur.com/26eAolh.png"
+                "image": "https://i.imgur.com/P4ssz5A.png"
             }
         ]
     };
